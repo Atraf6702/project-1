@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="story_board.css">
+    <style>
+        .drop-down {
+            height: 627px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="header2">hhhhhh</div>
+    <div class="demobox">
+        <div id="head1" class="head">
+            <div class="upper">Task heading 1</div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptatum distinctio voluptas eius,
+            aliquam corrupti eveniet, hic doloremque laborum quos sint minima obcaecati similique itaque quam impedit
+            suscipit eum ipsa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio molestias, temporibus
+            quidem provident et quisquam facere neque similique fugiat earum non unde voluptate perferendis expedita
+            velit vero ad nihil eos! Reprehenderit repudiandae natus perspiciatis minus modi sit corrupti corporis!
+            Atque!
+
+            <button id="but1" class="button" type="button">
+                &#8681;
+            </button>
+            <button id="but2" class="button" type="button">
+                &#8679;
+            </button>
+
+        </div>
+        <div id="head2" class="head">
+            <div class="upper">Task heading 2</div>
+            <iframe width="445" height="260" src="https://www.youtube.com/embed/WQoB2z67hvY"
+                title="YouTube video player" frameborder="3"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <button id="but3" class="button" type="button">
+                &#8681;
+            </button>
+            <button id="but4" class="button" type="button">
+                &#8679;
+            </button>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam voluptas rerum dignissimos culpa
+            corporis quam consequuntur quas corrupti ad eos dolore illo quisquam laudantium, ab unde odit laboriosam
+            eum.
+        </div>
+        <div id="head3" class="head">
+            <div class="upper">Task heading 3</div>
+           <embed style="overflow: scroll; height: 90%; width: 100%;"  src="https://en.wikipedia.org/wiki/Web_development" type="">
+            <button id="but5" class="button" type="button">
+                &#8681;
+            </button>
+            <button id="but6" class="button" type="button">
+                &#8679;
+            </button>
+        </div>
+        <div id="head4" class="head">
+            <div class="upper">Task heading 4</div>
+           <textarea name="textarea" id="textarea" cols="50" rows="12"></textarea>
+           <button id="sub_but" type="submit">Submit</button>
+            <button id="but7" class="button" type="button">
+                &#8681;
+            </button>
+            <button id="but8" class="button" type="button">
+                &#8679;
+            </button>
+        </div>
+        <div id="head5" class="head">
+            <div class="upper">Task heading 5</div>
+            <audio controls class="audio">
+                 <source src="music.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+              </audio>
+            <button id="but9" class="button" type="button">
+                &#8681;
+            </button>
+            <button id="but10" class="button" type="button">
+                &#8679;
+            </button>
+        </div>
+        <div id="head6" class="head">
+            <div class="upper">Task heading 6</div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam voluptas rerum dignissimos culpa
+            corporis quam consequuntur quas corrupti ad eos dolore illo quisquam laudantium, ab unde odit laboriosam
+            eum.
+            <button id="but11" class="button" type="button">
+                &#8681;
+            </button>
+            <button id="but12" class="button" type="button">
+                &#8679;
+            </button>
+        </div>
+      
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+
+            //for head 1
+            $(".but1").on("click", function () {
+
+                $("#head1").css("height", "627px").addClass("trans")
+                $("#but1").css("display", "none");
+                $("#but2").css("display", "block");
+
+            })
+
+
+            $("#but2").on("click", function () {
+
+                $("#head1").css("height", "320px");
+                $("#but2").css("display", "none");
+                $("#but1").css("display", "block");
+            })
+
+            // for head 2
+            $("#but3").on("click", function () {
+
+                $("#head2").css("height", "627px").addClass("trans")
+                $("#but3").css("display", "none");
+                $("#but4").css("display", "block");
+
+            })
+
+
+            $("#but4").on("click", function () {
+
+                $("#head2").css("height", "320px");
+                $("#but4").css("display", "none");
+                $("#but3").css("display", "block");
+            })
+
+            //for head3
+            $("#but5").on("click", function () {
+
+                $("#head3").css("height", "627px").addClass("trans")
+                $("#but5").css("display", "none");
+                $("#but6").css("display", "block");
+
+            })
+
+
+            $("#but6").on("click", function () {
+
+                $("#head3").css("height", "320px");
+                $("#but6").css("display", "none");
+                $("#but5").css("display", "block");
+            })
+
+            //for head 4
+            $("#but7").on("click", function () {
+
+                $("#head4").css("height", "627px").addClass("trans")
+                $("#but7").css("display", "none");
+                $("#but8").css("display", "block");
+                $("#textarea").addClass("area").addClass("trans")
+               
+
+            })
+
+
+            $("#but8").on("click", function () {
+
+                $("#head4").css("height", "320px");
+                $("#but8").css("display", "none");
+                $("#but7").css("display", "block");
+                $("#textarea").removeClass("area")
+               
+            })
+
+            //for head 5
+            $("#but9").on("click", function () {
+
+                $("#head5").css("height", "627px").addClass("trans")
+                $("#but9").css("display", "none");
+                $("#but10").css("display", "block");
+
+            })
+
+
+            $("#but10").on("click", function () {
+
+                $("#head5").css("height", "320px");
+                $("#but10").css("display", "none");
+                $("#but9").css("display", "block");
+            })
+
+            //for head 6
+
+            $("#but11").on("click", function () {
+
+                $("#head6").css("height", "627px").addClass("trans")
+                $("#but11").css("display", "none");
+                $("#but12").css("display", "block");
+
+            })
+
+
+            $("#but12").on("click", function () {
+
+                $("#head6").css("height", "320px");
+                $("#but12").css("display", "none");
+                $("#but11").css("display", "block");
+            })
+
+
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,277 @@
+.demobox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1300px;
+    height: 3150px;
+    left: 77px;
+    top: 273px;
+    background: whitesmoke;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header2 {
+    position: absolute;
+    width: 1300px;
+    height: 51px;
+    left: 77px;
+    top: 222px;
+    background: #0029FF;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#head1 {
+    font-weight: 700;
+    text-align: center;
+    text-decoration: solid;
+    width: 461px;
+    height: 320px;
+    left: 160px;
+    top: 403px;
+    
+}
+
+#head2 {
+    width: 448px;
+    height: 320px;
+    left: 768px;
+    top: 399px;
+    overflow: scroll;
+}
+
+#head3 {
+    width: 456px;
+    height: 320px;
+    left: 160px;
+    top: 1053px;
+}
+
+#head4 {
+    width: 452px;
+    height: 320px;
+    left: 768px;
+    top: 1053px;
+}
+
+
+
+#head5 {
+    width: 452px;
+    height: 320px;
+    left: 160px;
+    top: 1700px;
+}
+
+#head6 {
+    width: 455px;
+    height: 320px;
+    left: 768px;
+    top: 1700px;
+}
+
+.head{
+    position: absolute;
+    background-color: white;
+    border-radius:15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.upper{
+    position: sticky;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color:White;
+    text-align:center;
+    padding-top: 10px;
+}
+
+    #but1{
+        position: absolute;
+       bottom: 0;
+       right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+        cursor:pointer;
+    }
+
+    #but2{
+        display: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+        cursor:pointer;
+
+    }
+
+    #but3{
+     
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+        cursor:pointer;
+
+
+    }
+    #but4{
+        display: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+        cursor:pointer;
+
+    }
+    #but5{
+     
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+        cursor:pointer;
+
+
+    }
+    #but6{
+        display: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+        cursor:pointer;
+
+    }
+    #but7{
+     
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+        cursor:pointer;
+
+
+    }
+    #but8{
+        display: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+        cursor:pointer;
+
+    }
+    #but9{
+     
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+        cursor:pointer;
+
+
+    }
+    #but10{
+        display: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+        cursor:pointer;
+
+    }
+    #but11{
+     
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+
+        cursor:pointer;
+
+    }
+    #but12{
+        display: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: solid white 2px;
+        border-radius: 50%;
+        background: rgba(117, 22, 5, 0.322);
+
+    }
+   
+
+    .trans{
+
+     transition: height 0.5s;
+    }
+   
+#textarea{
+    margin:10px 0 0 30px;
+    background-color: white;
+    border-radius:15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    resize: none;
+    padding: 3%;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+  #sub_but{
+    position: absolute;
+    background: #0029FF;
+    border-radius: 3px;
+    border:#0029FF;
+    box-shadow: 0px 4px 4px #002aff69;;
+    color: white;
+    bottom: 5%;
+    right:10%;
+    font-weight: 300;
+
+  }
+
+  .area{
+    height: 400px;
+    transition: height 0.5s;
+  }
+  .audio{
+    position: absolute;
+    bottom:50%;
+    left:20%;
+  }
